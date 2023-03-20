@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Uso De Servlets</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>   
+    <body>
+        <div class="container">
+            <div class="contenedorCliente">            
+                <form action="Cliente" method="post" name="FormularioCliente">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                <br>
+                <label>Apellido:</label>
+                <input type="text" name="apellido" required>
+                <br>
+                <label>Correo electrónico:</label>
+                <input type="email" name="email" required>
+                <br><br>
+                <input type="submit" value="Registrarse">
+               </form>
+            </div>
+        </div>
+        
+        <br><br>
+        
+        <div class="container">
+            <div class="contenedorProducto">            
+                <form action="Producto" method="post" name="FormularioProducto">
+                <label>Nombre del Producto:</label>
+                <input type="text" name="nombreProd" required>
+                <br>
+                <label>Precio:</label>
+                <input type="number" name="precio-prod" required>                
+                <br><br>
+                <input type="submit" value="Comprar">
+               </form>
+            </div>
+        </div>
+    </body>
+</html>
