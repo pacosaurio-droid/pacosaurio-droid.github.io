@@ -6,7 +6,7 @@
 
 /**
  *
- * @author denis
+ * @author Francisco
  */
 public class ProductoClass {
     
