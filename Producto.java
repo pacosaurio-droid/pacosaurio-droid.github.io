@@ -13,7 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author denis
+ * @author Francisco 
+ * 
  */
 public class Producto extends HttpServlet {
    

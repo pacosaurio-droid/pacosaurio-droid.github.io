@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author denis
+ * @author Francisco
  */
 public class Cliente extends HttpServlet {
 
